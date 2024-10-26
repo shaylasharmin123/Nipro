@@ -1,0 +1,251 @@
+/*font links*/
+@font-face{
+	src: url(../fonts/lato/lato-regular.ttf);
+	font-family: lato-regular;
+}
+@font-face{
+	src: url(../fonts/lato/lato-medium.ttf);
+	font-family: lato-medium;
+}
+@font-face{
+	src: url(../fonts/lato/lato-semibold.ttf);
+	font-family: lato-semibold;
+}
+@font-face{
+	src: url(../fonts/lato/lato-bold.ttf);
+	font-family: lato-bold;
+}
+@font-face{
+	src: url(../fonts/roboto/roboto-regular.ttf);
+	font-family: roboto-regular;
+}
+@font-face{
+	src: url(../fonts/roboto/roboto-medium.ttf);
+	font-family: roboto-medium;
+}
+/*common css*/
+:root{
+	--lato1: lato-regular;
+	--lato2: lato-medium;
+	--lato3: lato-bold;
+	--lato4: lato-semibold;
+	--rob1: roboto-regular;
+	--rob2: roboto-medium;
+	--black:#333333;
+	--ash: #8e8e8e;
+}
+body{
+	font-family: var(--rob1);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--ash);
+}
+.cm_h1{
+	font-size: 30px;
+	font-weight: 400;
+	color: var(--black);
+	text-transform: uppercase;
+}
+/*common end*/
+/*header start*/
+header{
+	padding: 15px 0;
+}
+.m_nav{
+
+}
+.m_nav h1{
+	font-family: var(--lato2);
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--black);
+	text-transform: uppercase;
+}
+.menu{}
+.menu ul li a{
+	font-family: var(--lato1);
+	color: var(--ash) !important;
+    padding: 0 15px !important;
+    text-transform: uppercase;
+}
+.menu ul li a:hover{
+	color: var(--black) !important;
+}
+.btn-search{
+	border: none;
+}
+.btn-search::after {
+    display: none;
+}
+.btn_dd{
+	width: 350px;
+	padding: 10px 10px;
+}
+.btn_dd[data-bs-popper] {
+    top: 66px;
+    left: -310px;
+}
+.btn_dd input{
+	border: none;
+}
+.btn_dd button{
+	background: transparent;
+	border: none;
+	padding: 7px 3px;
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slider{
+	margin: 210px 0 200px;
+}
+.slider h1{
+	font-family: var(--lato3);
+	font-size: 60px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.slider p{
+	color: #ffffff;
+	padding: 40px 80px 40px 0;
+}
+.slider a{
+	font-family: var(--rob2);
+	font-weight: 500;
+	color: var(--black);
+	text-transform: uppercase;
+}
+.btn_cm{
+	background-color: #ffffff;
+	text-transform: uppercase;
+	color: var(--black);
+	padding: 18px 30px;
+}
+.btn_cm:hover{
+	background-color: var(--black);
+	color: #ffffff;
+}
+.slider span{}
+.slider i{
+	padding-left: 23px;
+}
+.span2{
+	font-weight:700;
+	color: var(--black) !important;
+}
+.btn_np{
+	font-family: var(--rob1);
+	font-weight: 400;
+	border: none;
+}
+.btn_np:hover{
+	color: var(--ash);
+}
+/*banner end*/
+/*welcome start*/
+.welcome{
+	padding: 80px 0 100px;
+}
+.welcome_n{}
+.wel_p{
+	line-height: 28px;
+	padding-top: 48px;
+}
+/*welcome end*/
+/*about start*/
+.about{
+	padding-bottom: 130px;
+}
+.about_img{}
+.about_text{
+	margin-left: 60px;
+}
+.about_text h1{
+}
+.about_text p{
+	margin-top: 30px;
+}
+.about_text a{
+}
+.btn_about{
+	margin-top: 30px;
+    border: 1px solid var(--black);
+}
+.about_text i{
+	padding-left: 20px;
+}
+/*about end*/
+/*contact start*/
+.contact{
+	padding: 100px 0;
+}
+.border_c{
+	border: 1px solid;
+}
+.contact_h1{}
+.first_name, .last_name, .email1, .message1{
+	border: none;
+	border-bottom: 1px solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	
+}
+.last_name{}
+.message1{
+	padding-bottom: 70px;
+}
+.sms{}
+.btn-contact{
+	margin: 38px 0;
+	border: 1px solid;
+	padding: 18px 17px;
+}
+.contact i{
+	padding:0 20px;
+}
+/*contact end*/
+/*footer end*/
+footer{
+	background-image: url(../images/footer.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.footer_top{
+	padding-top: 135px;
+	padding-bottom: 100px;
+	bo
+}
+.footer_top h1{
+	font-family: var(--lato2);
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--black);
+}
+.footer_top p{
+	color: #ffffff;
+	padding:40px 0 35px;
+}
+.f_icon{}
+.f_icon i{
+	font-size: 26px;
+	background-color: transparent;
+	color: #ffffff;
+	border:1px solid #ffffff;
+	padding:12px 18px;
+}
+.f_icon i:hover{
+	background-color: #ffffff;
+	color: var(--black);
+}
+
+.footer_bottom{
+	padding: 50px 0;
+}
+/*footer end*/
